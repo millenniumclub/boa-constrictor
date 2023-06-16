@@ -1,4 +1,8 @@
 name: 📖 Documentation improvement
+- task: SpecFlowPlus@0
+  inputs:
+    generatorSource: 'FeatureFolder'
+    projectFilePath: 'TonyProject'
 description: Suggest improvements to our documentation
 title: "[DOCS]: "
 labels: [documentation] 
